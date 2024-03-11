@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(61, 27, 93);
+}
+.container{
+ margin: 30%;
+ margin-top: 5%;
+ padding:5%;
+ width: 25%;
+ color: white;
+}
+.heading{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.display-container{
+    display: flex;
+    background: rgb(29, 5, 50);
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.display{
+    background: rgb(29, 5, 50);
+    border: none;
+    color: yellow;
+    width: 80%;
+    height: 100%; 
+    
+}
+
+::placeholder{
+    color: yellow;
+    font-size: 20px;
+} 
+.button{
+    background: rgb(29, 5, 50);
+    width: 15%;
+    height: 100%;
+    border: none;
+}
+.copyMsg{
+    color: rgb(11, 11, 135);
+    font-size: 15px;
+}
+.input-container{
+    background:rgb(29, 5, 50);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.length-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.slider {
+    -webkit-appearance:none;
+    border-radius: 5px;
+    width: 80%;
+    height: 10px;
+    margin: 10px;
+    background:rgb(43, 39, 39);
+    -webkit-transition-duration: 0.2s;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 0);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background:rgb(70, 14, 70);
+    cursor: pointer;
+  } 
+
+  .checkbox{
+    margin: 10px;
+    font-size: 18px;
+  }
+  .strength-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+  }
+  .indicator{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .generate{
+    background: rgb(205, 15, 205);
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom:5px solid yellow ;
+
+    display: flex;
+    justify-content: center;
+  }
+  .gen-button{
+    background: rgb(205, 15, 205);
+    border: none;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .cpMsg{
+    display: none;
+    background:hsl(150, 12%, 91%);
+    color: hsl(319, 94%, 49%);
+    border-radius: 2px;
+    height: 20px;
+    width: 40px;
+  }
